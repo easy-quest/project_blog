@@ -10,6 +10,11 @@ echo "export GOBIN=/home/zzz/go/bin" >> ${HOME}/.bashrc;source ${HOME}/.bashrc
 
 ---
 ## GIT
+
+```bash
+git config --global user.email easy-quest@mail.ru
+git config --global user.name "Ivan Yastrebov"
+```
 ```bash
 git add -A
 git commit -m 'added tests'
